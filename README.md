@@ -47,3 +47,4 @@ Follow these steps to set up the project locally:
 2. When filtering by 'All' a red text can highlight the specific field that matches the search.
 3. If filter is changed with a value in the 'Search for:' box, the new filter uses the existing value.
 4. When no matches are found, the table shrinks and shows nothing.
+5. Debounce of 300ms allows for a small bug. Debounce was used but the wait was set to 0.
