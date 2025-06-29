@@ -6,6 +6,7 @@ TestJavaScriptWebApp is a simple javascript web application. It allows user's to
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
+- [Assumptions](#assumptions)
 
 ## Features
 - **Filtering**: Filter user data by name, email, or company.
@@ -40,3 +41,9 @@ Follow these steps to set up the project locally:
     ```bash
     live-server
 4. Select site.html and voila!
+
+## Assumptions
+1. The table size is fit to the length of the row.
+2. When filtering by 'All' a red text can highlight the specific field that matches the search.
+3. If filter is changed with a value in the 'Search for:' box, the new filter uses the existing value.
+4. When no matches are found, the table shrinks and shows nothing.
