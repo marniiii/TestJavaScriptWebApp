@@ -26,3 +26,17 @@ TestJavaScriptWebApp is a simple javascript web application. It allows user's to
 ## Installation
 
 Follow these steps to set up the project locally:
+
+### Steps
+
+1. Clone the repository and move to appropriate folder:
+   ```bash
+   git clone https://github.com/marniiii/TestJavaScriptWebApp.git
+   cd TestJavaScriptWebApp/
+2. Open command prompt and download live server
+    ```bash
+    npm install -g live-server
+3. Run the folder in a live server:
+    ```bash
+    live-server
+4. Select site.html and voila!
