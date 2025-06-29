@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mark's Ceterus App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<!------ MAIN HEADER --------------->
+<body>
+    <h1>Mark's User Web App</h1>
+<!---------------------------------->
+
+
+<!------ FILTER -------------------->
+    <label for="filter">Search for:</label>
+    <input type="text" id="filter" name="name" placeholder="Search by name, email, co." required>
+
+<!---------------------------------->
+
+<label for="filterType">Filter by:</label>
+<select id="filterType" name="filterType">
+  <option value="All">All</option>
+  <option value="Name">Name</option>
+  <option value="Email">Email</option>
+  <option value="Company">Company</option>
+</select>
+
+
+<!---------------- TABLE ----------->
+
+    <table border="1" id="userTable">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Company</th>
+            </tr>
+        <tbody id="userTableBody">
+
+
+        </tbody>
+    </table>
+<!---------------------------------->
+</body>
+
+
+<script src="app.js"></script>
+</html>
