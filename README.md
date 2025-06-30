@@ -1,6 +1,6 @@
 # TestJavaScriptWebApp
 
-TestJavaScriptWebApp is a simple javascript web application. It allows user's to grab user data from https://jsonplaceholder.typicode.com/users and filter it by name, email, or company
+TestJavaScriptWebApp is a simple javascript web application. It allows user's to grab user data from https://jsonplaceholder.typicode.com/users and filter it by name, email, or company.
 
 ## Table of Contents
 - [Features](#features)
@@ -34,7 +34,7 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/marniiii/TestJavaScriptWebApp.git
    cd TestJavaScriptWebApp/
-2. Open command prompt and download live server
+2. Open command prompt and download live server:
     ```bash
     npm install -g live-server
 3. Run the folder in a live server:
@@ -45,6 +45,6 @@ Follow these steps to set up the project locally:
 ## Assumptions
 1. The table size is fit to the length of the row.
 2. When filtering by 'All' a red text can highlight the specific field that matches the search.
-3. If filter is changed with a value in the 'Search for:' box, the new filter uses the existing value.
+3. If the filter is changed with a value in the 'Search for:' box, the new filter uses the existing value.
 4. When no matches are found, the table shrinks and shows nothing.
 5. Debounce of 300ms allows for a small bug. Debounce was used but the wait was set to 0.
