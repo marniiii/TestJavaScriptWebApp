@@ -32,7 +32,7 @@ Follow these steps to set up the project locally:
 
 1. Clone the repository and move to appropriate folder:
    ```bash
-   git clone https://github.com/marniiii/TestJavaScriptWebApp.git
+   git clone --branch master https://github.com/marniiii/TestJavaScriptWebApp.git
    cd TestJavaScriptWebApp/
 2. Open command prompt and download live server:
     ```bash
